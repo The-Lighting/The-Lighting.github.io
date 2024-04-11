@@ -1,0 +1,14 @@
+{
+  "AppVersion": "0.9.6.0",
+  "Title": "The Great Wave",
+  "Thumbnail": "lively_t.jpg",
+  "Preview": "lively_p.gif",
+  "Desc": "The Great Wave off Kanagawa is a woodblock print by the artist Hokusai published in Edo period.",
+  "Author": "rocksdanister",
+  "License": "see license.txt",
+  "Contact": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}

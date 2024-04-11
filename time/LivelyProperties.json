@@ -1,0 +1,35 @@
+{
+  "uiCheck": {
+    "type": "checkbox",
+    "value": true,
+    "text": "UI"
+  },
+   "label2": {
+  	"type": "label",
+  	"value": "Weather"
+  },
+   "apiInput": {
+    "text": "API Key",
+    "type": "textbox",
+    "value": "b3c262d7d2bc497f58efa460eb91d5e9"
+  },
+   "cityInput": {
+    "text": "Location",
+    "type": "textbox",
+    "value": "Konnagar, IN"
+  },
+   "unit": {
+    "type": "dropdown",
+    "value": 0,
+    "text": "Unit",
+    "items": [
+      "Metric",
+      "Imperial",
+    ]
+  },
+  "btnRefresh" : {
+  "text" : "Click to Update",
+  "type" : "button",
+  "value" : "Refresh"
+  },
+}

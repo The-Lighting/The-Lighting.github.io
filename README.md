@@ -9,7 +9,7 @@ This personal website project is designed to be simple, responsive, and easy to 
 ### Features
 
 - **Home Page:** Learn more about me.
-- **Resume:** Download my resume.
+- **Resume:** View my resume.
 
 ## Usage
 Feel free to browse the source code to understand how the website is put together. If you're new to web development, this project could be a great starting point to learn about web design fundamentals.

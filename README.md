@@ -9,7 +9,6 @@ This personal website project is designed to be simple, responsive, and easy to 
 ### Features
 
 - **Home Page:** Learn more about me.
-- **Portfolio:** Details about my projects.
 - **Resume:** Download my resume.
 
 ## Usage

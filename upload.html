@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><title>Upload Your File</title><link rel="icon" href="/favicon.png" type="image/png" sizes="16x16"></head>
+<body>
+<center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <b>Select file to upload:</b>
+  <input type="file" name="fileToUpload" id="fileToUpload" required>
+  <button type="button">&#128473;</button><br><br><br>
+  <input type="submit" value="Upload" name="submit">
+</form><br><hr><br>
+The maximum size of one file is restricted to <b>22 MB</b><br><br><br>
+Please <a href="/uploads" target="_blank"><b>click here</b></a> for accessing your uploaded file.<br>
+<br><br><b><u>**PLEASE REMEMBER YOUR FILE NAME IN ORDER TO ACCESS IT!**</u></b>
+</center>
+<hr>
+<center><b><p><a href="/main.html">Click here</a> to return to home page</p></b><br><p><a href="/time" target="_blank">Current Time</a></p></center>
+<script>
+var es = document.forms[0].elements;
+es[1].onclick = function(){
+  clearInputFile(es[0]);
+};
+
+    function clearInputFile(f){
+        if(f.value){
+            try{
+                f.value = '';
+            }catch(err){
+            }
+            if(f.value){
+                var form = document.createElement('form'), ref = f.nextSibling;
+                form.appendChild(f);
+                form.reset();
+                ref.parentNode.insertBefore(f,ref);
+            }
+        }
+    }
+</script>
+</body>
+</html>
